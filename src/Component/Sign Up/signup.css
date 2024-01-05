@@ -1,0 +1,89 @@
+.signupSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    flex-direction: column;
+    background: #222;
+    padding: 70px  0;
+    border-radius: 5px;
+}
+.signupSection .formContainer {
+    max-width: 700px;
+    margin: auto;
+    background: #333;
+    color: #fff;
+    padding: 30px 40px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px 5px rgba(218, 218, 218, 0.1);
+}
+.signupSection .formContainer form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 7px 0;
+}
+.signupSection input#name {
+    border: none;
+    outline: none;
+    padding: 5px 15px;
+    font-size: 16px;
+    height: 40px;
+    width: 350px;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+.signupSection input#email {
+    border: none;
+    outline: none;
+    padding: 5px 15px;
+    font-size: 16px;
+    height: 40px;
+    width: 350px;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+.signupSection input#password {
+    border: none;
+    outline: none;
+    padding: 5px 15px;
+    font-size: 16px;
+    height: 40px;
+    width: 350px;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+.signupSection input#confirmPassword {
+    border: none;
+    outline: none;
+    padding: 5px 15px;
+    font-size: 16px;
+    height: 40px;
+    width: 350px;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+.signupSection h1 {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.signupSection input#submitBtn {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 70px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background: #3498db;
+    color: #fff;
+    cursor: pointer;
+    transition: all .3s;
+}
+.signupSection input#submitBtn:hover{
+    background:#2980b9;
+    border-radius: 5px;
+}
+.login {
+    color: aqua;
+}

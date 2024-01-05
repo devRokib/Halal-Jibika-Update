@@ -1,0 +1,82 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+label{
+text-align: left;
+}
+a{
+  text-decoration: none;
+  text-transform: capitalize;
+}
+img{
+  max-width: 100%;
+  object-fit: cover;
+}
+.addJobBtn {
+  display: inline-block;
+  font-size: 25px;
+  margin-top: 30px;
+  background: #2e3e56;
+  color: #fff;
+  padding: 5px 82px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+/* Tablet Styles (768px to 1023px) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .jobButton,
+  .editDeleteBtn {
+    flex-direction: row;
+  }
+
+  .moreInfoBtn,
+  .editBtn,
+  .deleteBtn,
+  .favoriteBtn {
+    font-size: 18px;
+    margin-bottom: 0;
+    margin-right: 10px;
+  }
+}
+
+/* Laptop Styles (1024px to 1279px) */
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+  .jobContent h1 {
+    font-size: 28px;
+    line-height: 35px;
+  }
+
+  .moreInfoBtn,
+  .editBtn,
+  .deleteBtn,
+  .favoriteBtn {
+    font-size: 20px;
+  }
+}
+
+/* Desktop Styles (1280px and above) */
+@media only screen and (min-width: 1280px) {
+  .jobContent h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .moreInfoBtn,
+  .editBtn,
+  .deleteBtn,
+  .favoriteBtn {
+    font-size: 24px;
+  }
+}
+   
+  @media only screen and (min-width: 768px) {
+    .jobButton,
+    .editDeleteBtn {
+      flex-direction: row; /* Reset to horizontal layout for larger screens */
+      align-items: center;
+    }
+  }
+  

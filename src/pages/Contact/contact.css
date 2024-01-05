@@ -1,0 +1,134 @@
+/* Contact.css */
+
+.contactPage {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-family: sans-serif;
+  }
+  
+  .contactPage h1 {
+    color: #333;
+  }
+  
+  .contactPage p {
+    color: #555;
+    line-height: 1.5;
+    max-width: 700px;
+    margin: auto;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .contactForm label {
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .contactForm input,
+  .contactForm textarea {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .contactForm button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .contactForm button:hover {
+    background-color: #0056b3;
+  }
+  
+  .contactInfo {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 20px;
+  }
+  
+  .contactInfo h2 {
+    color: #007bff;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    text-align: center;
+}
+
+  
+  .contactInfo p {
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .socialMedia {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .socialMedia a {
+    display: flex;
+    height: 30px;
+    width: 30px;
+    background: #3498db;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all .3s;
+}
+.socialMedia a:hover{
+    background: #2980b9;
+    transform: scale(1.2);
+}
+  .socialMedia h2 {
+    color: #007bff;
+    margin-top: 10px;
+    margin-bottom: 6px;
+  }
+  
+  .socialMedia p {
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .socialMedia ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .socialMedia li a img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #007bff;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .socialMedia li a img:hover {
+    transform: scale(1.1);
+  }
+  .socialMedia ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    width: 200px;
+    margin: auto;
+}

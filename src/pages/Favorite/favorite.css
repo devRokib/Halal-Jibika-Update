@@ -1,0 +1,89 @@
+
+
+.favoriteSection {
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .favoriteContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .favoriteContainer h1 {
+    font-size: 33px;
+    text-align: center;
+    
+}
+  .favoriteContent p {
+    text-align: left;
+  }
+  .favoriteItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .favoriteImg {
+    flex: 0 0 400px;
+    margin-right: 20px;
+  }
+  
+  .favoriteImg img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .favoriteContent {
+    flex: 1;
+  }
+  
+  .favoriteItem h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .favoriteItem h4 {
+    font-size: 20px;
+    color: #777;
+    margin-top: 5px;
+    text-align: left;
+}
+  .favoriteItem h2 {
+    font-size: 22px;
+    color: #555;
+}
+  
+  .favoriteItem h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .favoriteItem h4 {
+    font-size: 20px;
+    color: #777;
+    margin-top: 5px;
+}
+ .favoriteRequirment {
+    margin-top: 15px;
+  }
+  .favoriteRequirment p{
+    margin-top: 15px;
+    font-size: 17px;
+  }
+  .favoriteContainer hr {
+    margin: 32px 0;
+}
+.ApplyNowBtn{
+    display: inline-block;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 600;
+    padding: 8px 100px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+   

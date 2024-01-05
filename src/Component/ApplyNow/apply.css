@@ -1,0 +1,58 @@
+/* Overall structure */
+.applyNowSection {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    
+    border-radius: 5px;
+  }
+  .applyNowContainer h1,a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+  }
+  
+  .applyNowForm  form{
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 50px;
+  }
+  
+  .applyNowSection  label {
+    text-align: left;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+  
+  .applyNowSection  input[type="text"],
+  input[type="email"],
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box; /* Ensure consistent sizing */
+    margin-bottom: 05px;
+  }
+  
+  .applyNowSection  button[type="submit"] {
+    background-color: #007bff; /* Primary blue color */
+    color: #fff !important;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Additional styling */
+  .applyNowForm > *:not(:last-child) {
+    margin-bottom: 15px; /* Space between fields */
+  }
+  .applyNowSection a {
+    color: #fff;
+}
+  

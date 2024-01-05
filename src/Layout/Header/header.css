@@ -1,0 +1,233 @@
+.headerSection {
+    background: #3498db;
+    padding: 7px 0px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    box-shadow: 1px 7px 20px rgba(0,0,0, .3);
+}
+.headerContainer{
+   max-width: 1200px;
+   margin: auto;
+   padding: 0 0px;
+  
+}
+.headerLogo {
+    max-width: 30%;
+}
+.headerLogo h1 {
+    color: #fff;
+    font-size: 33px;
+    font-family: math;
+}
+
+ ul{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+    width: 70%;
+}
+.headerMenu ul a {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 0px 10px;
+    color: #fff;
+    font-size: 19px;
+    font-family: monospace,sans-serif;
+}
+.navMenu{
+    display: flex;
+    align-items: center;
+    max-width:60%;
+}
+.signMenu{
+    display: flex;
+    align-items: center;
+    max-width: 40%;
+} 
+.signMenu .UserDisplayName {
+    font-size: 18px;
+    color: #fff;
+    margin-right: 5px;
+}
+.signMenu img {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    margin-left: 5px;
+}
+.active{
+    background: #2980b9;
+   
+}
+.headerMenu ul a {
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+    padding: 0px 10px;
+    color: #fff;
+    font-size: 21px;
+    font-family: monospace,sans-serif;
+}
+.headerMenu nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.checkbtn{
+    font-size: 25px;
+    color: #fff;
+    display: flex;
+    justify-content: end;
+    
+    margin-left: 20px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+/* responsive 
+======================
+======================
+*/
+
+@media (max-width:1060px) {
+    .headerMenu ul{
+        padding-right:10px ;
+        
+    }
+    .headerLogo {
+        width: 20%;
+    }
+    ul {
+        width: 80%;
+    }
+    .headerLogo h1 {
+        color: #fff;
+        font-size: 26px;
+        
+    }
+}
+@media (max-width:950px) {
+    
+    .headerLogo h1 {
+        font-size: 20px;
+      }
+    .navMenu {
+         max-width: 70%;
+    }
+    .headerMenu ul a {
+        margin: 0 1px;
+        padding: 0px 3px;
+      }
+      .headerMenu {
+        padding: 0 10px;
+    }
+    .headerLogo {
+        width: 30%;
+    }
+   
+   
+}
+@media (max-width:900px) {
+    .headerMenu ul a {
+        margin: 0px 1px;
+       }
+     
+    .headerLogo {
+        width: 20%;
+    }
+    .headerLogo h1{
+        font-size: 20;
+    }
+}
+
+@media (max-width: 830px) {
+     nav ul a{
+        font-size: 16px;
+
+    }
+    .checkbtn{
+        display: block;
+    }
+    .navMenu {
+        display: block;
+        
+        line-height: 35px;
+        
+    }
+    ul{
+        display: flex;
+        justify-content: center;
+       position: absolute;
+        top: 41px;
+        right: 100%;
+        text-align: center;
+        background-color: #2c3e50;
+         transition: all .3s;
+         height: 100vh;
+    }
+    .headerMenu ul a {
+        display: block;
+       }
+       #check:checked  ~ ul {
+        left: 0;
+       }
+       ul {
+        display: block;
+        text-align: center;
+    }
+    .active{
+        background: none;
+        color:#3498db ;
+        }
+        a:hover{
+            color: #3498db;
+        }
+        .signMenu {
+            display: block;
+            line-height: 15px;
+            max-width: 100%;
+            margin-top: 15px;
+            text-align: center;
+        }
+       
+     nav{
+        display: flex;
+        flex-direction: row-reverse;
+     }
+     ul{
+        display:block;
+       align-items: center;
+        width: 100%;
+    } 
+    .navMenu{
+        display: block;
+        text-align: center;
+        max-width:100%;
+    }
+        
+  }
+  @media (max-width:780px) {
+   
+    .headerLogo{
+        max-width: 100%;
+    }
+    .headerLogo{
+        max-width: 100%;
+    }
+  }
+  @media (max-width:650px) {
+   ul{
+    top: 60px;
+   }
+    .headerLogo{
+        max-width: 100%;
+    }
+    .headerLogo{
+        max-width: 100%;
+    }
+  }

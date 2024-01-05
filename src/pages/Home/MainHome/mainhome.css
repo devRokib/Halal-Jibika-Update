@@ -1,0 +1,205 @@
+
+  
+  .homeLeft h3 {
+    color: #f3f3f3;
+    display: inline-block;
+    background: #999;
+    padding: 1px 17px;
+    border-radius: 2px;
+    margin-bottom: 22px;
+    font-size: 17px;
+}
+  
+
+.BnrTitleEdit {
+    background: #3498db;
+    color: #fff;
+    display: inline-block;
+    padding: 0 8px;
+    border-radius: 5px;
+}
+  
+.homeLeft p {
+    color: #666;
+    font-size: 19px;
+    font-family: sans-serif;
+}
+  
+.exploreBtn {
+    display: inline-block;
+    padding: 10px 63px;
+    margin-top: 50px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-size: 21px;
+    font-family: cursive;
+}
+  
+.exploreBtn:hover {
+    background-color: #0056b3; 
+  }
+  
+  .homeRight {
+    flex: 0 0 50%;
+    text-align: right;
+  }
+  
+  .homeRight img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+ .jobMainContainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+ } 
+ 
+ .latestTitle {
+  text-align: center;
+  padding-bottom: 19px;
+}
+.exploreMoreBtn{
+    text-align: center;
+}
+.exploreWrapper {
+  text-align: center;
+  padding-bottom: 20px;
+  margin: 18px 0;
+}
+.exploreMoreBtn {
+    text-align: center;
+    font-size: 22px;
+    background: #7B66FF;
+    color: #fff;
+    padding: 6px 52px;
+    border-radius: 5px;
+} 
+/* Common styles for all screen sizes */
+
+.homeSection {
+  background-color: #fff;
+}
+
+.homeContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.homeContent {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homeLeft {
+  flex: 0 0 50%;
+  text-align: start;
+}
+
+.homeLeft h1 {
+  color: #007bff;
+  font-size: 40px;
+  font-family: sans-serif;
+  line-height: 56px;
+}
+
+.exploreBtn {
+  padding: 10px 40px;
+  margin-top: 30px;
+  font-size: 18px; 
+}
+
+.homeRight {
+  flex: 0 0 50%;
+  text-align: right;
+}
+
+.homeRight img {
+  max-width: 100%; 
+  height: auto;
+  border-radius: 5px;
+}
+
+.jobMainContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px; 
+}
+
+/* Media query for screens larger than 1200px (adjust as needed) */
+@media (min-width: 1201px) {
+  .homeLeft h1 {
+    font-size: 50px;
+    line-height: 68px;
+  }
+
+  .exploreBtn {
+    padding: 10px 63px;
+    margin-top: 50px;
+    font-size: 21px;
+  }
+}
+.ExploreBtn {
+  margin-top: 35px;
+  font-size: 1.5rem; 
+  padding: 15px 30px; 
+  background-color: #3498db; 
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.ExploreBtn:hover {
+  transform: scale(1.1); 
+}
+
+
+/* Media query for screens between 768px and 1200px (adjust as needed) */
+@media (min-width: 768px) and (max-width: 1200px) {
+  .homeLeft {
+    flex: 0 0 100%;
+    text-align: left;
+  }
+
+  .homeRight {
+    flex: 0 0 100%;
+    text-align:right;
+  }
+}
+
+/* Media query for screens up to 767px (adjust as needed) */
+@media (max-width: 767px) {
+
+  .homeLeft h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .exploreBtn {
+    padding: 10px 30px;
+    margin-top: 30px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .homeLeft h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .exploreBtn {
+    padding: 7px 25px;
+    margin-top: 30px;
+    font-size: 14px;
+  }
+}

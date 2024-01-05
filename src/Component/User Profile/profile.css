@@ -1,0 +1,70 @@
+.profileSection {
+    padding: 60px 0;
+     background-color: #f0f0f0; /* Set your desired background color */
+   }
+   .profileContainer{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+   }
+   .profileSection h2 {
+     text-align: center;
+     margin-bottom: 22px;
+   }
+   .profileSection img {
+     max-width: 200px; /* Adjust the max-width of the image as needed */
+     border-radius: 50%; /* Make the image circular */
+     margin-right: 20px; /* Add some space between the image and other content */
+   }
+   
+   .profileDetails {
+     flex-grow: 1;
+   }
+   
+   .profileDetails h2 {
+     font-size: 24px;
+     margin-bottom: 10px;
+   }
+   
+   .profileDetails div {
+     margin-bottom: 20px;
+   }
+   
+   .profileDetails p {
+     font-size: 16px;
+     margin: 5px 0;
+   }
+   
+   .profileDetails a {
+     text-decoration: none;
+     color: #007bff; /* Set your desired link color */
+   }
+   .profileDiv{
+     margin-top: 15px;
+   }
+   a.profileEdit {
+     font-size: 18px;
+     background: #3498db;
+     padding: 7px 21px;
+     border-radius: 4px;
+     transition: all .3s;
+     color: #fff;
+   }
+   a.profileEdit:hover{
+   background: #2980b9;
+   }
+   /* Add animation to the background */
+   @keyframes backgroundAnimation {
+     from {
+       background-position: 0 0;
+     }
+     to {
+       background-position: 100% 0;
+     }
+   }
+   
+   .profileSection {
+     animation: backgroundAnimation 10s infinite alternate linear;
+   }
+   

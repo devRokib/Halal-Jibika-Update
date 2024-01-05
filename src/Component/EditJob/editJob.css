@@ -1,0 +1,60 @@
+
+.editSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 30px;
+    background-color: #fff; 
+    font-family: 'Arial', sans-serif; 
+  }
+  
+  .editformContainer {
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .editSection .editForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+  }
+  
+ 
+  .editSection .editForm label {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .editSection .editForm input,
+  button {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    
+  }
+  .editForm input{
+    width: 400px;
+  }
+  
+  .editSection .editForm input:focus,
+  button:focus {
+    outline: none;
+    border-color: #007bff; 
+  }
+  
+  .editSection .editForm button {
+    background-color: #007bff;
+    color: #fff; 
+    cursor: pointer;
+  }
+  
+
+  @media (max-width: 768px) {
+    .editformContainer {
+      width: 90%; 
+    }
+  }
+ 

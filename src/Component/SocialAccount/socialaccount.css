@@ -1,0 +1,52 @@
+.buttonContainer{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width:350px;
+}
+.signWithGoogle{
+     display:flex; 
+     align-items: center;
+     justify-content: space-around;
+     width: 50%;
+     background: #f7f7f7;
+     padding: 5px 8px;
+     border-radius: 20px;
+     cursor: pointer;
+     margin-right: 10px;
+}
+.signWithGithub{
+    display:flex; 
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    background: #f7f7f7;
+    padding: 5px 8px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.GoogleIcon{
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+.GoogleContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-right: 5px;
+}
+.GithubIcon{
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+.GithubContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-right: 5px;
+}

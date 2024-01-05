@@ -1,0 +1,214 @@
+.jobItem {
+    max-width: 380px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden; 
+    transition: all .3s;
+  }
+  .jobItem:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  .jobImg {
+    height: 200px; 
+    overflow: hidden; 
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  .jobImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+  }
+  /* .jobImg {
+      width: 400px;
+  } */
+  /* .jobItem{
+      box-shadow: 1px 2px 20px 5px rgba(0,0,0, .2);
+      border-radius: 5px;
+  } */
+  .jobContent {
+    padding:  15px;
+    text-align: left;
+  }
+  .jobButton{
+      display: flex;
+      justify-content: space-between;
+      color: #fff;
+      padding: 10px 15px;
+      
+      align-items: center;
+      background: #3498db;
+  }
+  .moreInfoBtn {
+      display: flex;
+      align-items: center;
+      color: #fff;
+      font-size: 20px;
+      cursor: pointer;
+      font-weight: 600;
+      background: #333;
+      padding: 4px 8px;
+      display: inline-block;
+      border-radius: 7px;
+  }
+  .moreInfoBtn:hover{
+      background: #2980b9;
+    }
+    .jobContent h1 {
+      font-size: 20px;
+      margin-bottom: 8px;
+      text-transform: capitalize;
+      font-family: sans-serif;
+      font-weight: 500;
+      line-height: 25px;
+  }
+  .jobContent h2 {
+    font-size: 17px;
+    color: #666;
+    font-family: sans-serif;
+    font-weight: 500;
+  }
+  .jobContent h3 {
+    font-size: 15px;
+    color: #999;
+    text-transform: capitalize;
+  }
+  .editDeleteBtn {
+      display: flex;
+      align-items: center;
+      font-size: 20px;
+      
+      color: #fff;
+  }
+  
+    .editBtn,
+    .deleteBtn,
+    .favoriteBtn {
+      background-color: #007bff; 
+      color: #fff;
+      padding: 5px 8px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out; 
+      margin-right: 10px;
+      
+    }
+    
+    
+    .editBtn:hover,
+    .deleteBtn:hover,
+    .favoriteBtn:hover {
+      background-color: #0062cc;
+    }
+    
+    
+    .deleteBtn {
+      background-color: #dc3545; 
+    }
+    
+    .deleteBtn:hover {
+      background-color: #c82333; 
+    }
+    
+    
+    .editDeleteBtn a {
+      font-size: 14px;
+      text-decoration: none;
+    }
+    
+    
+    .editDeleteBtn a svg {
+      margin-right: 0px;
+    }
+    
+  
+  
+  /* Adjustments for laptops (screens between 769px and 1200px) */
+  @media screen and (min-width: 769px) and (max-width: 1200px) {
+    .jobItem {
+      max-width: 100%; 
+    }
+  
+    .jobButton {
+      padding: 10px;
+    }
+  
+    .moreInfoBtn {
+      font-size: 18px; 
+      padding: 3px 6px; 
+    }
+  
+    .jobContent h1 {
+      font-size: 18px; 
+    }
+  
+    .jobContent h2 {
+      font-size: 16px; 
+    }
+  
+    .jobContent h3 {
+      font-size: 14px; 
+    }
+  
+    .editDeleteBtn {
+      font-size: 18px; 
+    }
+  
+    .editBtn,
+    .deleteBtn,
+    .favoriteBtn {
+      padding: 4px 6px; 
+    }
+  
+    .editDeleteBtn a svg {
+      margin-right: 5px; 
+    }
+  }
+  
+  /* Media Query for Tablets */
+  @media screen and (max-width: 768px) {
+    .jobItem {
+      max-width: 100%;
+    }
+  
+    .jobImg {
+      height: 150px;
+    }
+  
+    .moreInfoBtn {
+      font-size: 16px;
+      padding: 2px 4px;
+    }
+  
+    .jobContent h1 {
+      font-size: 16px; 
+    }
+  
+    .jobContent h2 {
+      font-size: 14px;
+    }
+  
+    .jobContent h3 {
+      font-size: 12px;
+    }
+  
+    .editDeleteBtn {
+      font-size: 16px; 
+    }
+  
+    .editBtn,
+    .deleteBtn,
+    .favoriteBtn {
+      padding: 3px 5px; 
+    }
+  
+    .editDeleteBtn a svg {
+      margin-right: 3px;
+    }
+  }
+  
+  
+  

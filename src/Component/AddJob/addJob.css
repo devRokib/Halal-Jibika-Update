@@ -1,0 +1,66 @@
+.formContainer{
+    padding: 30px 0;
+}
+form {
+    width: 500px; 
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    font-family: sans-serif;
+  }
+  
+ 
+
+  .editSection .editForm label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+    display: block;
+    font-weight: 600;
+}
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  textarea {
+    height: 120px; 
+  }
+  
+  
+  input[type="file"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+  
+ 
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3e8e41; 
+  }
+  
+  
+  .error-message {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
