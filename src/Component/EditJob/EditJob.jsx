@@ -20,7 +20,7 @@ function EditJob() {
   const handleSubmit = async (event) => {
     event.preventDefault(event);
     try {
-      const response = await fetch(`http://localhost:9000/jobs/${id}`, {
+      const response = await fetch(`https://api-server-kzsn.onrender.com/jobs/${id}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",

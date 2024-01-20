@@ -28,7 +28,7 @@ function AddJob() {
         else{
          }
          try {
-            const response = await axios.post(`http://localhost:9000/jobs`, jobData);
+            const response = await axios.post(`https://api-server-kzsn.onrender.com/jobs`, jobData);
            setJobData({
                 title,
                 companyName,

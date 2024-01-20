@@ -16,7 +16,7 @@ function Job({data,onDelete,setJobs,addToFavorites }) {
   };
 
   const handleConfirmDelete = async () => {
-    axios.delete(`http://localhost:9000/jobs/${id}`)
+    axios.delete(`https://api-server-kzsn.onrender.com/jobs/${id}`)
     try {
       await onDelete(id);
       setJobs((prevJobs) => prevJobs.filter((job) => job.id !== id));

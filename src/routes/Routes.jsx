@@ -30,7 +30,7 @@ const routes = createBrowserRouter([
             {
               path:'/',
               element:<Home/>,
-              loader:async ()=>fetch(`http://localhost:9000/jobs`)
+              loader:async ()=>fetch(`https://api-server-kzsn.onrender.com/jobs`)
              },
             {
               path:'/about',
@@ -39,7 +39,7 @@ const routes = createBrowserRouter([
             {
               path:'/jobs',
               element:<Jobs/>,
-              loader:()=>fetch("http://localhost:9000/jobs")
+              loader:()=>fetch("https://api-server-kzsn.onrender.com/jobs")
             },
             {
               path:'/contact',
@@ -48,7 +48,7 @@ const routes = createBrowserRouter([
             {
               path:'/jobs/:id/favorite',
               element:<Favorite/>,
-              loader:({params})=>fetch(`http://localhost:9000/jobs/${params.id}`)
+              loader:({params})=>fetch(`https://api-server-kzsn.onrender.com/jobs/${params.id}`)
             },
             {
               path:'/signin',
@@ -61,7 +61,7 @@ const routes = createBrowserRouter([
                   <AddJob/>
                 </PrivateRoute>
               ),
-              loader:({params})=>fetch(`http://localhost:9000/jobs/${params.id}`)
+              loader:({params})=>fetch(`https://api-server-kzsn.onrender.com/jobs/${params.id}`)
             },
             {
               path:'/signup',
@@ -78,7 +78,7 @@ const routes = createBrowserRouter([
              {
               path:'/jobs/:id/',
               element:<JobDetails/>,
-              loader:({params})=>fetch(`http://localhost:9000/jobs/${params.id}`)
+              loader:({params})=>fetch(`https://api-server-kzsn.onrender.com/jobs/${params.id}`)
              },
              {
               path:'/jobs/:id/editjob',
@@ -91,7 +91,7 @@ const routes = createBrowserRouter([
                 <ApplyNow/>
                 </PrivateRoute>
               ),
-              loader:({params})=>fetch(`http://localhost:9000/jobs/${params.id}`)
+              loader:({params})=>fetch(`https://api-server-kzsn.onrender.com/jobs/${params.id}`)
              }
          ]
      },
