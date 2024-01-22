@@ -22,7 +22,7 @@ function Header() {
           <input type="checkbox" id='check' />
             <label htmlFor="check" className='checkbtn'><i className="fa-solid fa-bars"></i></label>
               <div className="headerLogo">
-                <NavLink to= '/'><h1>HALAL JIBIKA</h1></NavLink>
+                <NavLink to= '/'><h1>JobStack</h1></NavLink>
                 </div>
                 <ul>
               
