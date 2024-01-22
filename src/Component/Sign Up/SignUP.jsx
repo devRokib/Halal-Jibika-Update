@@ -101,8 +101,9 @@ import { useEffect, useState } from 'react';
 import auth from '../../fireConfig/FirebaseConfig';
 import { GoogleAuthProvider } from 'firebase/auth';
 
+
 // Initialize GoogleAuthProvider
-const googleAuthProvider = new GoogleAuthProvider(auth());
+const googleAuthProvider = new GoogleAuthProvider();
 
 function SignUp() {
   const [createUserWithEmailAndPassword, user, loading, error] = useCreateUserWithEmailAndPassword(auth, {

@@ -15,10 +15,11 @@ import AddJob from "../Component/AddJob/AddJob";
 import PrivateRoute from "./PrivateRoute";
 import UserProfile from "../Component/User Profile/Profile";
 import EditProfile from "../Component/EditProfile/EditProfile";
-import SignUp from './../Component/Sign Up/SignUP';
+// import SignUp from './../Component/Sign Up/SignUP';
 import Home from './../pages/Home/MainHome/MainHome';
 import Jobs from './../pages/Jobs/MainJobs/MainJobs';
 import EditJob from './../Component/EditJob/EditJob';
+import SignUp from "../Component/Sign Up/SignUP";
 
 
 
