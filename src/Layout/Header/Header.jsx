@@ -4,7 +4,8 @@ import {  NavLink } from 'react-router-dom'
 import { useAuthState } from 'react-firebase-hooks/auth';
 
 import { signOut } from 'firebase/auth';
-import auth from '../../fireConfig/FirebaseConfig';
+// import auth from '../../fireConfig/FirebaseConfig';
+import { auth } from './../../fireConfig/FirebaseConfig';
 
 
 function Header() {

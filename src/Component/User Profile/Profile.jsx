@@ -3,8 +3,9 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 // import auth from '../../fireConfige/FirebaseConfig';
 import { NavLink } from 'react-router-dom';
 import { useState } from 'react';
-import auth from '../../fireConfig/FirebaseConfig';
+// import auth from '../../fireConfig/FirebaseConfig';
 // import Profile from './Profile';
+import { auth } from './../../fireConfig/FirebaseConfig';
 
 function Profile() {
   const [user] = useAuthState(auth);

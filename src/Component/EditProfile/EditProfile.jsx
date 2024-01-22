@@ -3,7 +3,8 @@ import React, { useState } from 'react';
 import { updateProfile } from 'firebase/auth';
 // import auth from '../../fireConfige/FirebaseConfig';
 import './editProfile.css'
-import auth from '../../fireConfig/FirebaseConfig';
+// import auth from '../../fireConfig/FirebaseConfig';
+import { auth } from './../../fireConfig/FirebaseConfig';
 
 function EditProfile({ onClose }) {
   const [newDisplayName, setNewDisplayName] = useState('');

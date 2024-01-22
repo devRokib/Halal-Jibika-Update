@@ -5,7 +5,7 @@ import { onAuthStateChanged } from 'firebase/auth';
 // import auth from '../../fireConfige/FirebaseConfig';
 import Swal from 'sweetalert2';
 import LatestJob from './../LatestJob/LatestJob';
-import auth from '../../../fireConfig/FirebaseConfig';
+import {auth} from '../../../fireConfig/FirebaseConfig';
 
 function Home() {
   const data = useLoaderData()

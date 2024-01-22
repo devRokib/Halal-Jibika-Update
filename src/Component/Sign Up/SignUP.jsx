@@ -8,7 +8,7 @@ import { toast } from "react-toastify";
 import Loading from "../Loading/Loading";
 import SocialAccount from "../SocialAccount/SocialAccount";
 import { useEffect, useState } from 'react';
-import auth from '../../fireConfig/FirebaseConfig';
+import {auth} from '../../fireConfig/FirebaseConfig';
 
 
 function SignUp() {
@@ -90,7 +90,7 @@ function SignUp() {
   )
 }
 
-// export default SignUp
+export default SignUp
 // import { useCreateUserWithEmailAndPassword, useUpdateProfile, GoogleAuthProvider } from 'react-firebase-hooks/auth';
 // import './signup.css';
 // import { NavLink, useNavigate } from 'react-router-dom';
@@ -100,6 +100,7 @@ function SignUp() {
 // import { useEffect, useState } from 'react';
 // import auth from '../../fireConfig/FirebaseConfig';
 // import { GoogleAuthProvider } from 'firebase/auth';
+// import { auth } from './../../fireConfig/FirebaseConfig';
 
 
 // // Initialize GoogleAuthProvider

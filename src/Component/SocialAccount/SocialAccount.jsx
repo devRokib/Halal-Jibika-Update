@@ -6,7 +6,8 @@ import { useSignInWithGithub, useSignInWithGoogle } from 'react-firebase-hooks/a
 import { NavLink, useNavigate } from 'react-router-dom'
 import Loading from '../Loading/Loading'
 import { toast } from 'react-toastify'
-import auth from '../../fireConfig/FirebaseConfig';
+// import auth from '../../fireConfig/FirebaseConfig';
+import { auth } from './../../fireConfig/FirebaseConfig';
 
 
 function SocialAccount() {

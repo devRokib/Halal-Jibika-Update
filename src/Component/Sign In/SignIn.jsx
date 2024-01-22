@@ -5,7 +5,8 @@ import {  useSignInWithEmailAndPassword, useUpdateProfile } from 'react-firebase
 // import auth from '../../fireConfige/FirebaseConfig';
 import { toast } from 'react-toastify';
 import { useEffect } from 'react';
-import auth from '../../fireConfig/FirebaseConfig';
+// import auth from '../../fireConfig/FirebaseConfig';
+import { auth } from './../../fireConfig/FirebaseConfig';
 
 function SignIn() {
   const [signInUserWithEmailAndPassword, user, loading, error] = useSignInWithEmailAndPassword(auth, { sendEmailVerification: true });
